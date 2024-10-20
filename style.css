@@ -1,17 +1,16 @@
 body{
     margin:auto;
     height:vw;
-    width:1100px;
+    width:vh;
     display:flex;
-    flex-wrap:wrap;
-    justify-content: flex-start;
-    align-content:space-around;
+    flex-direction:column;
     font-family: monospace;
-    align-content:center;
+align-items:center;
+    
 }
 
 header{
-    width:900px;
+    width:1200px;
     height:50px;
     background-color:rgba(236, 203, 236, 0.705);
     align-content: center;
@@ -20,20 +19,22 @@ header{
 }
 
 a{
+    margin:10px;
+    padding: 10px;
     font-size:16px;
     font:monospace bolder;
 }
 main{
-    width:870px;
-    height:900px;
-    float:right;
+    display:flex;
+
+    width:1200px;
+    height:1080px;
+    
     background-color:rgba(148, 158, 187, 0.473);
-    border-style:inset;
+    border-style:hidden
     border-width:4px;
     padding:5px;
     margin:5px;
-    
-  
 
 }
 iframe{
@@ -52,8 +53,30 @@ iframe{
     display:flex;
     background-color:rgba(236, 203, 236, 0.705);
 }
-
+.left-wrapper{
+    float:left;
+    display:flex;
+    flex-direction:column;
+    height:800px;
+}
+.right-wrapper{
+    float:right;
+    display:flex;
+    flex-direction:column;
+    height:800px;
+}
 .left-sidebar{
+    float:left;
+    flex-direction:column;
+    justify-content:center;
+    height:200px;
+    width:160px;
+    background-color:rgba(148, 158, 187, 0.473);
+    border-style:inset;
+    border-width:4px;
+    margin: 5px;
+}
+ .left-sidebar2{
     float:left;
     flex-direction:column;
     height:200px;
@@ -62,25 +85,51 @@ iframe{
     border-style:inset;
     border-width:4px;
     margin: 5px;
-    
-  
+ }   
+.right-sidebar{
+    float:right;
+    flex-direction:column;
+    height:200px;
+    width:160px;
+    background-color:rgba(148, 158, 187, 0.473);
+    border-style:inset;
+    border-width:4px;
+    margin: 5px;
 }
-.page.header{
+.right-sidebar2{
+    float:right;
+    flex-direction:column;
+    height:200px;
+    width:160px;
+    background-color:rgba(148, 158, 187, 0.473);
+    border-style:inset;
+    border-width:4px;
+    margin: 5px;
+}
+  
+
+.page-header{
     display:flex;
     justify-content:center;
     width:160px;
     height:20px;
+    margin:5px;
+    padding:px;
 }
 .link1{
     display:flex;
     justify-content:center;
     width:160px;
     height:20px;
+    margin:5px;
+    padding:px;
 }
 .link2{
     display:flex;
     justify-content:center;
     width:160px;
+    margin:5px;
+    padding:px;
     height:20px;
 }
 .link3{
@@ -88,8 +137,20 @@ iframe{
     justify-content:center;
     width:160px;
     height:20px;
+    margin:5px;
+    padding:px;
     
 
 
 }
 
+#whyblog{
+border-style:dotted;
+padding:10px;
+margin:10px;
+}
+#aboutme{
+   border-style:dotted;
+   padding:10px;
+   margin:10px;
+}
