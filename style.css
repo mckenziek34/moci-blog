@@ -40,7 +40,6 @@ main{
 iframe{
     width:870px;
     height:800px;
-    float:right;
     background-color:rgba(148, 158, 187, 0.473);
     border-style:inset;
     border-width:4px;
@@ -52,6 +51,16 @@ iframe{
     padding:4px;
     display:flex;
     background-color:rgba(236, 203, 236, 0.705);
+}
+.main{
+    width:870px;
+    height:800px;
+    display:flex;
+    background-color:rgba(148, 158, 187, 0.473);
+    border-style:inset;
+    border-width:4px;
+    padding:5px;
+    margin:5px; 
 }
 .left-wrapper{
     float:left;
@@ -151,6 +160,11 @@ margin:10px;
 }
 #aboutme{
    border-style:dotted;
+   padding:10px;
+   margin:10px;
+}
+
+.fashionsection{
    padding:10px;
    margin:10px;
 }
