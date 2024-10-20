@@ -79,7 +79,7 @@ iframe{
  .left-sidebar2{
     float:left;
     flex-direction:column;
-    height:200px;
+    height:400px;
     width:160px;
     background-color:rgba(148, 158, 187, 0.473);
     border-style:inset;
